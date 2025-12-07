@@ -2,23 +2,23 @@
 Bu proje, BGP201 dersi kapsamında React Native kullanılarak geliştirilmiş bir mobil uygulamadır.
 Uygulama; Login, Register ve Home ekranlarından oluşur.
 Proje kapsamında:
-Ekranlar arası geçiş (React Navigation)
+Ekranlar arası geçiş
 Form yapısı ve kontrolü
 Register ekranında şifre tekrar kontrolü
-API’den veri çekip listeleme (FlatList)
+API’den veri çekip listeleme
 Konsol / DevTools çıktılarının incelenmesi
 uygulanmıştır.
 Uygulama, PDF ödev yönergesi ile birebir uyumludur.
 📌 İçindekiler
 Projenin Amacı
 Kullanılan Teknolojiler
-Kurulum (Windows)
+Kurulum
 Ekran Görüntüleri
 Kod Yapısı
-App.tsx (Navigation)
+App.tsx
 LoginScreen
 RegisterScreen
-HomeScreen (API + FlatList)
+HomeScreen
 Konsol / DevTools Çıktıları
 Proje Klasör Yapısı
 Sonuç
@@ -36,24 +36,23 @@ React Native v0.82	Mobil uygulama geliştirme
 @react-navigation/native-stack	Stack navigator
 react-native-screens	Navigation performansı
 react-native-safe-area-context	Güvenli alan yönetimi
-Android Emulator / Fiziksel Cihaz	Test ortamı (Windows)
+Android Emulator / Fiziksel Cihaz	Test ortamı
 Bu proje, Windows işletim sistemi üzerinde Android Emulator veya USB ile bağlanan fiziksel Android cihaz kullanılarak çalıştırılabilir.
-🚀 Kurulum (Windows için)
+🚀 Kurulum
 0. Ön Gereksinimler
 Windows ortamında projeyi çalıştırmak için aşağıdakilerin kurulu olması gerekir:
 Node.js ve npm
 Git
-Java Development Kit (JDK) (React Native CLI için)
+Java Development Kit
 Android Studio
 Android SDK
-Bir adet Android sanal cihaz (Android Emulator)
+Bir adet Android sanal cihaz
 veya USB ile bağlı fiziksel Android telefon
 Android Studio kurulumunda SDK ve Platform-Tools paketlerinin yüklü olduğundan emin olmalısın.
-Ayrıca ortam değişkenlerinde ANDROID_HOME ayarı yapılmış olmalıdır (React Native resmi dokümantasyonuna uygun şekilde).
+Ayrıca ortam değişkenlerinde ANDROID_HOME ayarı yapılmış olmalıdır
 1. Projeyi İndirme
 git clone <proje-github-linki>
 cd KampusPost
-(Eğer projeyi zaten indirdiysen, sadece klasöre girmen yeterli.)
 2. Bağımlılıkların Yüklenmesi
 npm install
 npm install @react-navigation/native @react-navigation/native-stack
@@ -77,9 +76,9 @@ Register Ekranı
 Şifreler Uyuşmuyor Uyarısı
 HomeScreen – API’den gelen post listesinin gösterimi
 Login & HomeScreen Konsol Çıktıları
-(Görseller GitHub üzerinde “user-attachments” olarak eklenmiştir.)
+
 🧱 Kod Yapısı
-🧭 App.tsx (Navigation Yapısı)
+🧭 App.tsx
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
